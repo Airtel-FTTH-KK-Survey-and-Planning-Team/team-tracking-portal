@@ -1,0 +1,239 @@
+<html>
+
+<head>
+	<title>FTTH Survey and Planning</title>
+	<link type="image/png" rel="icon" href="img/logo.png">
+</head>
+
+<style>
+
+::-webkit-scrollbar{
+	width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+	background:linear-gradient(transparent,#ca2626);
+	border-radius:6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background:linear-gradient(transparent,#ca2626);
+}
+
+body{
+text-align:center;
+background-image: linear-gradient(black, #414141);
+margin:0;
+
+}
+
+.hedd{
+position:fixed;
+width:100%;
+background-image: linear-gradient(black, #414141);
+padding-bottom:10px;
+}
+	
+h1{
+color:white;
+}
+
+.hed{
+padding-top:0px;
+padding-bottom:0px;
+}
+
+.spn{
+margin-top:20px;
+}
+
+.cnt{
+padding-top:15%;
+}
+
+a,button{
+padding:5px;
+width:15%;
+background-image: linear-gradient(#623333, #8f0b0b);
+color:#dadada;
+}
+
+h2{
+color:red;
+}
+
+
+ button:hover {
+    color: f40303;
+    box-shadow: 0 0 5px #f40303,
+        0 0 25px #f40303,
+        0 0 50px #f40303,
+        0 0 100px #f40303;
+		transition:0.5s;
+}
+
+
+
+iframe{
+border:none;
+height:100%;
+}
+
+
+
+	table{
+	
+	width:100%;
+	
+	padding-left:10%;
+	padding-right:10%;
+	}
+	h3{
+	
+	text-align:center;
+	color:red;
+	}
+	
+	td, th{
+	text-align:center;
+	border:1px solid #292929;
+	
+	}
+	
+	th{
+	background-image: linear-gradient(#d80000, #460c0c);
+	color:white;
+	padding-bottom:5px;
+	padding-top:5px;
+	}
+	
+	td{
+	background-image: linear-gradient(#6e6a6a, #2d2d2d);
+	color:white;
+	}
+	
+	.date{
+	width:10%;
+	}
+	
+	.pln{
+	width:35%;
+	}
+	.prdt{
+	
+	width:0%;
+	}
+
+
+
+
+
+
+</style>
+
+<body class="bdy">
+   
+   <div class="hedd">
+	<img src="img/airtel.png" style="height:70;">
+	<div class="hed">
+		<h1>FTTH Survey and Planning Department - KK</h1>
+		
+	</div>
+	
+
+	<div class="spn">
+		<span>
+			<button onclick="aa()">Home</button>
+		</span>
+
+		<span>
+			<button onclick="bb()">Daily Report</button>
+		</span>
+
+		<span>
+			<button onclick="cc()">Weekly Report</button>
+		</span>
+		
+		<span>
+			<button>Monthly Tracker</button>
+		</span>
+
+		<span>
+			<button>Survey Report</button>
+		</span>
+
+		<span>
+			<button>Planning Report</button>
+		</span>
+
+
+	</div>
+
+   </div>
+
+	<div >
+		<h2 class="cnt">Welcome to Team Tracking Portal</h2>
+	</div>
+	
+	<div id="demo2">
+	
+	<h2> Today's plan</h2>
+	
+<table>
+<table>
+<tr><th class="date">Emp Name</th><th class="pln">Plan for the Day</th>
+<tr><td>Siddlinga Parbhu</td><td>OSP WO's to be release.</td>
+<tr><td>Chirangeevi KR</td><td>ODN WO's to be release.</td>
+<tr><td>Yogendra BR</td><td>Not Updated.</td>
+<tr><td>Suresh GC</td><td>Augmentaion 312 HP.</td>
+<tr><td>Anusha U</td><td>NMR Cluster split and coversheet updation.</td>
+<tr><td>Subramanyam</td><td>Rajeev nagar New FTTH Rollout (NON POP_MYE372) Coversheet and DP text updation.</td>
+<tr><td>Megha B</td><td>TRN Planning.</td>
+<tr><td>Kavya</td><td>CAD plotting.</td>
+<tr><td>Ramya</td><td>FTTH Portal updation.</td>
+<tr><td>Uday Kumar</td><td>Ballari LCO Survey.</td>
+<tr><td>Indraprasad</td><td>LCO Planning Thumkur.</td>
+<tr><td>Arun</td><td>Infosys Limited B2B Survey.</td>
+<tr><td>Palani</td><td>Classic Orchards Layout plotting.</td>
+<tr><td>Jayaprakash</td><td>kodathi gate 100% perasent flatbelt survey continue.</td>
+<tr><td>Prakash Acharya</td><td>Mangalore ODN Survey.</td>
+<tr><td>Ashok</td><td>Leave.</td>
+<tr><td>Vijay</td><td>ODN Design.</td>
+<tr><td>Maulik Raval</td><td>RSU 0MP , 0SF plan plotting and to be checked wth GIS database. HP 5.5K.</td>
+<tr><td>Harish</td><td>MJN flatbelt survey with Tirula sir.</td>
+<tr><td>Tirumal</td><td>MJN flatbelt survey.</td>
+<tr><td>Irshad</td><td>Bellari LCO survey.</td>
+</table>
+
+
+	
+	
+	</div>
+
+</body>
+
+<script>
+	function aa(){
+	
+		document.location="index.html";
+
+	}
+
+
+	function cc(){
+	
+		document.location="index2.html";
+
+	}
+	
+	function bb(){
+	
+		document.getElementById("demo2").innerHTML="<iframe src=Daily/13th_Feb.html style='width:100%; height:100%' ></iframe>";
+
+	}
+	
+
+</script>
+
+</html>

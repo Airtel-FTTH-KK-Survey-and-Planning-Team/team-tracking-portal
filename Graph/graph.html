@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<script src="Chart.min.js"></script>
+<style>
+
+iframe{
+
+background-image: linear-gradient(black, #414141);
+}
+
+
+</style>
+<body>
+
+<canvas id="myChart" style="width:500px;max-width:700px;margin-left:auto;margin-right:auto;background-color:#d5d5d5;"></canvas>
+
+<script>
+var xValues = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var yValues = [0,0,8164,796,11675,16025];
+var barColors = ["#cc0b0b","#cc0b0b","#cc0b0b","#cc0b0b","#cc0b0b","#cc0b0b"	];
+
+
+
+
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels:xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Weekly Report"
+    }
+  }
+});
+</script>
+
+</body>
+</html>
