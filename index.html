@@ -129,6 +129,20 @@ height:100%;
 
 
 
+.blink {
+            animation: blinker 0.9s linear infinite;
+            background-image: linear-gradient(#d80000, #460c0c);
+			color:white;
+            
+        }
+        @keyframes blinker {
+            40% {
+                opacity: 0;
+            }
+        }
+
+
+
 
 </style>
 
@@ -185,7 +199,7 @@ height:100%;
 <tr><th class="date">Emp Name</th><th class="pln">Plan for the Day</th>
 <tr><td>Siddlinga Parbhu</td><td>OSP WO's to be release.</td>
 <tr><td>Chirangeevi KR</td><td>ODN WO's to be release.</td>
-<tr><td>Yogendra BR</td><td>Not Updated.</td>
+<tr><td class="blink">Yogendra BR</td><td class="blink">Not Updated.</td>
 <tr><td>Suresh GC</td><td>Augmentaion 312 HP.</td>
 <tr><td>Anusha U</td><td>NMR Cluster split and coversheet updation.</td>
 <tr><td>Subramanyam</td><td>Rajeev nagar New FTTH Rollout (NON POP_MYE372) Coversheet and DP text updation.</td>
@@ -196,7 +210,7 @@ height:100%;
 <tr><td>Indraprasad</td><td>LCO Planning Thumkur.</td>
 <tr><td>Arun</td><td>Infosys Limited B2B Survey.</td>
 <tr><td>Palani</td><td>Classic Orchards Layout plotting.</td>
-<tr><td>Jayaprakash</td><td>kodathi gate 100% perasent flatbelt survey continue.</td>
+<tr><td>Jayaprakash</td><td>kodathi gate 100% flatbelt survey continue.</td>
 <tr><td>Prakash Acharya</td><td>Mangalore ODN Survey.</td>
 <tr><td>Ashok</td><td>Leave.</td>
 <tr><td>Vijay</td><td>ODN Design.</td>
